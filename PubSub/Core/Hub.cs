@@ -192,8 +192,8 @@ namespace PubSub
             {
                 for (int i = _handlers.Count - 1; i >= 0; --i)
                 {
-                    if (!_handlers[i].Sender.IsAlive)
-                        _handlers.RemoveAt(i);
+                   // if (!_handlers[i].Sender.IsAlive)
+                        //_handlers.RemoveAt(i);
                 }
             }
         }
